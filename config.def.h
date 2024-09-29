@@ -38,7 +38,7 @@ static char *fonts[] =
 static const char *fonts[] =
 #endif // XRESOURCES_PATCH
 {
-	"monospace:size=10"
+	"CaskaydiaCove Nerd Font:size=12"
 };
 #endif // PANGO_PATCH
 #if MANAGED_PATCH
@@ -91,7 +91,7 @@ const
 #endif // XRESOURCES_PATCH
 char *colors[][2] = {
 	/*               fg         bg       */
-	[SchemeNorm] = { "#293136", "#293136" },
+	[SchemeNorm] = { "#d3c6aa", "#293136" },
 	[SchemeSel]  = { "#293136", "#a7c080" },
 	[SchemeOut]  = { "#000000", "#00ffff" },
 	#if BORDER_PATCH
